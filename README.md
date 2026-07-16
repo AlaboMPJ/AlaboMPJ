@@ -2,6 +2,8 @@
 
 Cross-modal AI engineer with a computing teaching background (CS PGCE). I build and ship production AI systems: LLM application development, AI integration, generative audio and visual pipelines, plus Python tooling and automation.
 
+Site: [alabo.studio](https://alabo.studio)
+
 ## What I build
 
 - LLM applications and AI integration: typed API boundaries, tool-use, multi-agent orchestration, and AI features wired into real products.
