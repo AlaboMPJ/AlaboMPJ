@@ -1,33 +1,67 @@
 # Alabo MacPepple-Jaja
 
-Cross-modal AI engineer with a computing teaching background (CS PGCE). I build and ship production AI systems: LLM application development, AI integration, generative audio and visual pipelines, plus Python tooling and automation.
+**AI Systems Architect · Founder, [alabo.studio](https://alabo.studio)**
 
-Site: [alabo.studio](https://alabo.studio)
+Models into software.  
+Software into workflows.  
+Workflows into finished work.  
 
-## What I build
+I build production systems for VFX, generative media, music and creative software.
 
-- LLM applications and AI integration: typed API boundaries, tool-use, multi-agent orchestration, and AI features wired into real products.
-- Generative audio and visual pipelines: real-time neural audio, prompt-to-audio, and image/video generation workflows.
-- Python tooling and automation: services, bridges, and pipelines that make models usable in production.
+`93 ComfyUI nodes` · `28 node packs` · `Nuke` · `MCP` · `C++/JUCE` · `Python` · `TypeScript` · `GPU systems`
 
-## Selected work
+---
 
-- PERI: a real-time neural audio instrument. Generative synthesis deployed live at playable latency, with a typed Next.js application layer. (Model and method private.)
-- Audiogen: a prompt-to-audio studio. Generative audio integration behind a single swappable provider interface (OpenAI audio-preview, Stable Audio), Next.js + TypeScript.
-- CLO3D MCP server: an AI-integration project connecting an LLM, via the Model Context Protocol, to professional CAD software for scripted pattern, fabric, and simulation work. Python. https://github.com/Ubani-Studio/clo3d-mcp
+## What I Build
 
-## ComfyUI pipelines
+* **Generative Production:** Image, video, and audio systems built for repeatable work. *(Control, identity, motion, resolution, duration, provenance, rendering)*
+* **Software Integration:** AI connected directly to the applications where work actually happens. *(Nuke, CLO3D, ComfyUI, custom tools)*
+* **Agents & Execution:** Systems that can call software, run jobs, and move work through a defined process. *(MCP, typed APIs, tool execution, job queues, local/cloud GPUs)*
+* **Neural Audio:** Real-time generative instruments and audio software. *(C++, JUCE, Python, neural inference)*
 
-I author my own ComfyUI nodes: 93 across 28 packs, from prompt building and finishing to identity lock, motion, and provenance capture. The pipeline runs unattended at volume through a job-queue worker that dispatches renders to local or cloud GPUs and pulls the outputs back, on commercially clean Apache-2.0 base models.
+---
 
-Open, MIT-licensed utilities:
+## Selected Systems
 
-- [comfyui-alabo-resolution](https://github.com/AlaboMPJ/comfyui-alabo-resolution): drive resolution, clip length, and frame rate across a video graph from one control.
-- [comfyui-alabo-duration](https://github.com/AlaboMPJ/comfyui-alabo-duration): a dropdown-driven empty latent for AnimateDiff and video, with clip length that stays exact through RIFE interpolation.
+### PERI
+Real-time neural audio instrument.
+* Generative synthesis, playable latency, Next.js, and neural inference.
+* *Research and model architecture are private. [alabo.studio](https://alabo.studio)*
 
-The identity, brand, finishing, and pipeline packs are proprietary and stay private. Available for a walk-through under NDA.
+### CLO3D MCP Server
+LLM-to-CLO3D integration for scripted patterns, garments, fabrics, and simulation.  
+[View on GitHub](https://github.com/Ubani-Studio/clo3d-mcp)
 
-## Available for contract
+### Audiogen
+Prompt-to-audio application with a provider-independent backend.  
+* Next.js, TypeScript, and unified audio generation APIs.
 
-Available now, 2 to 4 days a week, remote or London hybrid, inside or outside IR35. Open to ComfyUI workflow and generative-image pipeline developer, AI / ML engineer, generative AI / LLM developer, AI integration / solutions engineer, Python developer, and AI consultant roles. CV and project list on request.
-</content>
+---
+
+## ComfyUI
+
+93 custom nodes across 28 packs. Built for prompt construction, resolution control, duration control, identity, motion, finishing, provenance, and automated rendering.
+
+**Open Utilities:**
+* [comfyui-alabo-resolution](https://github.com/AlaboMPJ/comfyui-alabo-resolution): Control resolution, clip length and frame rate across a video graph from one node.
+* [comfyui-alabo-duration](https://github.com/AlaboMPJ/comfyui-alabo-duration): Exact-duration latent generation for AnimateDiff and video workflows, including RIFE interpolation.
+
+*(Private systems cover identity, brand, finishing, and production automation.)*
+
+---
+
+## Nuke & Post-Production
+
+Generative outputs routed directly into professional post: **Generation → processing → compositing → finishing**. Programmatic workflows for image, video, and multi-pass processing.
+
+---
+
+## Stack
+
+`Python` · `TypeScript` · `C++` · `JUCE` · `MCP` · `ComfyUI` · `Nuke` · `Next.js` · `PyTorch` · `CUDA` · `GPU Infrastructure`
+
+---
+
+## Alabo.Studio
+
+Voice estates and artworks that carry their own evidence. Neural audio research and technical notes via [alabo.studio](https://alabo.studio).
